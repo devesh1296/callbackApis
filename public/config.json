@@ -15,10 +15,16 @@
     "execute": {
       "inArguments": [
         {
-          "emailAddress": "{{InteractionDefaults.Email}}"
+          "emailAddress": "{{Contact.Attribute.Devesh_Inbox_P13N_Test.SubscriberKey}}"
         },
         {
-          "phoneNumber": "{{Contact.Default.PhoneNumber}}"
+          "firstName": "{{Contact.Attribute.Devesh_Inbox_P13N_Test.FirstName}}"
+        },
+        {
+          "lastName": "{{Contact.Attribute.Devesh_Inbox_P13N_Test.LastName}}"
+        },
+        {
+          "phoneNumber": "{{Contact.Attribute.Devesh_Inbox_P13N_Test.PhoneNumber}}"
         }
       ],
       "outArguments": [
@@ -26,21 +32,15 @@
           "foundSignupDate": ""
         }
       ],
-      "url": "https://some-endpoint.com/execute"
+      "url": "https://callbackapis.onrender.com/api/execute"
     }
   },
   "configurationArguments": {
     "save": {
-      "url": "URI/for/your/activity/save"
+      "url": "https://callbackapis.onrender.com/api/save"
     },
     "publish": {
-      "url": "URI/for/your/activity/publish"
-    },
-    "validate": {
-      "url": "URI/for/your/activity/validate"
-    },
-    "stop": {
-      "url": "URI/for/your/activity/stop"
+      "url": "https://callbackapis.onrender.com/api/publish"
     }
   },
   "wizardSteps": [
