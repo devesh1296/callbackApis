@@ -32,7 +32,8 @@
           "foundSignupDate": ""
         }
       ],
-      "url": "https://callbackapis.onrender.com/api/execute"
+      "url": "https://callbackapis.onrender.com/api/execute",
+      "timeout": 20000
     }
   },
   "configurationArguments": {
