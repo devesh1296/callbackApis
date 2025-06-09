@@ -62,14 +62,28 @@
         "inArguments": [
           {
             "phoneNumber": {
-              "dataType": "Phone",
+              "dataType": "Text",
               "isNullable": false,
               "direction": "in"
             }
           },
           {
             "emailAddress": {
-              "dataType": "Email",
+              "dataType": "Text",
+              "isNullable": false,
+              "direction": "in"
+            }
+          },
+          {
+            "firstName": {
+              "dataType": "Text",
+              "isNullable": false,
+              "direction": "in"
+            }
+          },
+          {
+            "lastName": {
+              "dataType": "Text",
               "isNullable": false,
               "direction": "in"
             }
@@ -78,7 +92,7 @@
         "outArguments": [
           {
             "foundSignupDate": {
-              "dataType": "Date",
+              "dataType": "Text",
               "direction": "out",
               "access": "visible"
             }
