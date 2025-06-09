@@ -246,11 +246,5 @@ const resParams = {
 res.send(resParams);
 })
 
-app.get('/api/sfmc/public', async function (req, res) {
-    res.render("home.ejs");
-}).on('error',function(){
-    console.log("error");
-});
-
 server.listen(port, () => {
     console.log(`Server is running at port -> ${port}`)});
