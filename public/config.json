@@ -15,16 +15,16 @@
     "execute": {
       "inArguments": [
         {
-          "emailAddress": "{{Contact.Attribute.Devesh_Inbox_P13N_Test_Copy.emailAddress}}"
+          "emailAddress": "{{Contact.Attribute.P13_test_D.emailAddress}}"
         },
         {
-          "firstName": "{{Contact.Attribute.Devesh_Inbox_P13N_Test_Copy.FirstName}}"
+          "firstName": "{{Contact.Attribute.P13_test_D.FirstName}}"
         },
         {
-          "lastName": "{{Contact.Attribute.Devesh_Inbox_P13N_Test_Copy.LastName}}"
+          "lastName": "{{Contact.Attribute.P13_test_D.LastName}}"
         },
         {
-          "phoneNumber": "{{Contact.Attribute.Devesh_Inbox_P13N_Test_Copy.PhoneNumber}}"
+          "phoneNumber": "{{Contact.Attribute.P13_test_D.PhoneNumber}}"
         }
       ],
       "outArguments": [
@@ -71,8 +71,8 @@
           },
           {
             "emailAddress": {
-              "dataType": "Text",
-              "isNullable": true,
+              "dataType": "EmailAddress",
+              "isNullable": false,
               "direction": "in",
               "access": "visible"
             }
