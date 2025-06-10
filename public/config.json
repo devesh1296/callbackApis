@@ -65,28 +65,32 @@
             "phoneNumber": {
               "dataType": "Text",
               "isNullable": false,
-              "direction": "in"
+              "direction": "in",
+              "access": "visible"
             }
           },
           {
             "emailAddress": {
               "dataType": "Text",
               "isNullable": false,
-              "direction": "in"
+              "direction": "in",
+              "access": "visible"
             }
           },
           {
             "firstName": {
               "dataType": "Text",
               "isNullable": false,
-              "direction": "in"
+              "direction": "in",
+              "access": "visible"
             }
           },
           {
             "lastName": {
               "dataType": "Text",
               "isNullable": false,
-              "direction": "in"
+              "direction": "in",
+              "access": "visible"
             }
           }
         ],
