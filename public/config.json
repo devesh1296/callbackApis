@@ -18,13 +18,13 @@
           "emailAddress": "{{Contact.Attribute.P13_test_D.emailAddress}}"
         },
         {
-          "firstName": "{{Contact.Attribute.P13_test_D.FirstName}}"
+          "FirstName": "{{Contact.Attribute.P13_test_D.FirstName}}"
         },
         {
-          "lastName": "{{Contact.Attribute.P13_test_D.LastName}}"
+          "LastName": "{{Contact.Attribute.P13_test_D.LastName}}"
         },
         {
-          "phoneNumber": "{{Contact.Attribute.P13_test_D.PhoneNumber}}"
+          "PhoneNumber": "{{Contact.Attribute.P13_test_D.PhoneNumber}}"
         }
       ],
       "outArguments": [
@@ -62,7 +62,7 @@
       "execute": {
         "inArguments": [
           {
-            "phoneNumber": {
+            "PhoneNumber": {
               "dataType": "Text",
               "isNullable": false,
               "direction": "in",
@@ -78,7 +78,7 @@
             }
           },
           {
-            "firstName": {
+            "FirstName": {
               "dataType": "Text",
               "isNullable": false,
               "direction": "in",
@@ -86,7 +86,7 @@
             }
           },
           {
-            "lastName": {
+            "LastName": {
               "dataType": "Text",
               "isNullable": false,
               "direction": "in",
