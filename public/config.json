@@ -15,7 +15,7 @@
     "execute": {
       "inArguments": [
         {
-          "emailAddress": "{{Contact.Key}}"
+          "emailAddress": "{{Contact.Attribute.Devesh_Inbox_P13N_Test.SubscriberKey}}"
         },
         {
           "firstName": "{{Contact.Attribute.Devesh_Inbox_P13N_Test.FirstName}}"

@@ -80,24 +80,24 @@ res.send(resParams);
 })
 
 app.post('/api/execute', async function (req, res) {
-var response = { "response" : "This is the SFMC execute endpoint" }
-console.log(response);
+var str = "This is the SFMC execute endpoint"
+console.log(str);
 console.log(req.body);
 const resParams = {foundSignupDate: "2023-10-01T00:00:00Z"}
 res.send(resParams);
 })
 
 app.post('/api/save', async function (req, res) {
-    var response = { "response" : "This is the SFMC save endpoint" }
-    console.log(response);
+    var str = "This is the SFMC save endpoint"
+    console.log(str);
     console.log(req.body);
     const resParams = "Saved"
     res.send(resParams);
 })
 
 app.post('/api/publish', async function (req, res) {
-    var response = { "response" : "This is the SFMC publish endpoint" }
-    console.log(response);
+    var str = "This is the SFMC publish endpoint"
+    console.log(str);
     console.log(req.body);
     const resParams = "Published"
     res.send(resParams);
