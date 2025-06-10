@@ -71,7 +71,7 @@
           },
           {
             "emailAddress": {
-              "dataType": "EmailAddress",
+              "dataType": "Email",
               "isNullable": false,
               "direction": "in",
               "access": "visible"
