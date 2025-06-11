@@ -188,8 +188,18 @@ define(["postmonger"], function (Postmonger) {
     // set by this activity's config.json file.  Any property
     // may be overridden as desired.
     payload.name = name;
-
-    payload["arguments"].execute.inArguments = [{ message: value }];
+    var hasInArguments = Boolean(
+        payload["arguments"] &&
+        payload["arguments"].execute &&
+        payload["arguments"].execute.inArguments &&
+        payload["arguments"].execute.inArguments.length > 0
+    );
+    var inArguments = payload["arguments"].execute.inArguments;
+    if(hasInArguments){
+      payload["arguments"].execute.inArguments = [{ message: value }, ...inArguments];
+    } else{
+      payload["arguments"].execute.inArguments = [{ message: value }];
+    }
 
     payload["metaData"].isConfigured = true;
 
