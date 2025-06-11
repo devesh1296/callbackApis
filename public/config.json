@@ -15,15 +15,9 @@
     "execute": {
       "inArguments": [
         {
-          "emailAddress": "{{Contact.Attribute.P13_test_D.emailAddress}}"
-        },
-        {
-          "FirstName": "{{Contact.Attribute.P13_test_D.FirstName}}"
-        },
-        {
-          "LastName": "{{Contact.Attribute.P13_test_D.LastName}}"
-        },
-        {
+          "emailAddress": "{{Contact.Attribute.P13_test_D.emailAddress}}",
+          "FirstName": "{{Contact.Attribute.P13_test_D.FirstName}}",
+          "LastName": "{{Contact.Attribute.P13_test_D.LastName}}",
           "PhoneNumber": "{{Contact.Attribute.P13_test_D.PhoneNumber}}"
         }
       ],
