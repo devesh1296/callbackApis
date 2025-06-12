@@ -5,6 +5,7 @@
     "category": "custom"
   },
   "type": "REST",
+  "key": "REST-1",
   "lang": {
     "en-US": {
       "name": "Inbox And P13N Activity",
