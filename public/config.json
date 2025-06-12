@@ -18,7 +18,8 @@
           "emailAddress": "{{Contact.Attribute.P13_test_D.emailAddress}}",
           "FirstName": "{{Contact.Attribute.P13_test_D.FirstName}}",
           "LastName": "{{Contact.Attribute.P13_test_D.LastName}}",
-          "PhoneNumber": "{{Contact.Attribute.P13_test_D.PhoneNumber}}"
+          "PhoneNumber": "{{Contact.Attribute.P13_test_D.PhoneNumber}}",
+          "UID": "{{Contact.Attribute.P13_test_D.UID}}"
         }
       ],
       "outArguments": [
@@ -83,6 +84,14 @@
             "LastName": {
               "dataType": "Text",
               "isNullable": false,
+              "direction": "in",
+              "access": "visible"
+            }
+          },
+          {
+            "UID": {
+              "dataType": "Text",
+              "isNullable": true,
               "direction": "in",
               "access": "visible"
             }
